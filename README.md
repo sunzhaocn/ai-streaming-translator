@@ -16,7 +16,7 @@
 ## 浏览器安装
 
 1. 安装 [Tampermonkey（油猴）](https://www.tampermonkey.net/)，允许用户脚本运行。
-2. 打开 [安装 AI流式翻译](https://raw.githubusercontent.com/sunzhaocn/ai-streaming-translator/main/deepseek-web-translator.user.js)。若显示源码，在油猴中新建脚本，粘贴全部内容并保存。
+2. 打开 [安装 AI流式翻译](https://raw.githubusercontent.com/sunzhaocn/ai-streaming-translator/main/ai-streaming-translator.user.js)。若显示源码，在油猴中新建脚本，粘贴全部内容并保存。
 3. 刷新网页，打开“译 · 目标语言”菜单。
 4. 选择服务商，填写该服务的 API Key 和模型，设置目标语言，点击“保存并翻译”。
 
@@ -43,11 +43,11 @@
 ## Discord 安装与使用
 
 1. 安装 [BetterDiscord](https://betterdiscord.app/)。
-2. 下载 [AI流式翻译 Discord 插件](https://raw.githubusercontent.com/sunzhaocn/ai-streaming-translator/main/DeepSeekTranslator.plugin.js)，放入 `%APPDATA%\BetterDiscord\plugins\`。
+2. 下载 [AI流式翻译 Discord 插件](https://raw.githubusercontent.com/sunzhaocn/ai-streaming-translator/main/AIStreamingTranslator.plugin.js)，放入 `%APPDATA%\BetterDiscord\plugins\`。
 3. 在 Discord 的 BetterDiscord 插件列表中启用“AI流式翻译”。
 4. 打开“译 · 目标语言”菜单，填写 DeepSeek API Key，选择模型和网页显示语言。
 5. 在同一菜单的“输入框翻译设置”中选择输入目标语言和模式。默认输入原文，按 Enter 翻译后发送。
 
-更新 Discord 插件时覆盖同名 `.plugin.js` 文件，保留原配置文件。
+更新 Discord 插件时覆盖同名 `.plugin.js` 文件，保留原配置文件。从旧文件名升级时，先停用并移出旧版插件文件，再放入 `AIStreamingTranslator.plugin.js`，避免同时加载两个副本。
 
 浏览器版 **2.3.2** · Discord 版 **1.15.2**
