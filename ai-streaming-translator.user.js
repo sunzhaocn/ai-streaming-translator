@@ -1,8 +1,12 @@
 // ==UserScript==
 // @name         AI流式翻译
+// @name:en      AI Streaming Translator - Web & Input Translation
 // @namespace    local.deepseek.web-translator
-// @version      2.3.2
-// @description  多模型网页翻译；输入框保留原文，按回车翻译并发送，也可选择实时替换。
+// @version      2.3.3
+// @description  油猴 AI 翻译脚本：网页翻译、全文翻译、输入框翻译、实时流式翻译；保留输入原文，按回车翻译并发送，支持 DeepSeek、OpenAI、Claude、Gemini 等多模型与自定义接口。
+// @description:zh-CN 油猴 AI 翻译脚本：网页翻译、全文翻译、输入框翻译、实时流式翻译；保留输入原文，按回车翻译并发送，支持 DeepSeek、OpenAI、Claude、Gemini 等多模型与自定义接口。
+// @description:zh-TW 油猴 AI 翻譯腳本：網頁翻譯、全文翻譯、輸入框翻譯、即時串流翻譯；保留輸入原文，按 Enter 翻譯並傳送，支援 DeepSeek、OpenAI、Claude、Gemini 等多模型與自訂介面。
+// @description:en Tampermonkey AI translator userscript for web page translation, full-page translation, input box translation and real-time streaming translation. Translate and send with Enter; supports DeepSeek, OpenAI, Claude, Gemini and custom APIs.
 // @homepageURL  https://github.com/sunzhaocn/ai-streaming-translator
 // @downloadURL  https://raw.githubusercontent.com/sunzhaocn/ai-streaming-translator/main/ai-streaming-translator.user.js
 // @updateURL    https://raw.githubusercontent.com/sunzhaocn/ai-streaming-translator/main/ai-streaming-translator.user.js

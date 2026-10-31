@@ -2,6 +2,8 @@
 
 网页原位翻译、输入框翻译和 Discord 翻译。
 
+搜索关键词：油猴翻译、油猴脚本、网页翻译、全文翻译、输入框翻译、输入翻译、回车翻译发送、实时翻译、流式翻译、AI 翻译、多语言翻译、Tampermonkey、userscript、AI translator、web page translation、input translation、streaming translation。
+
 ## 功能
 
 - 网页文字原位替换，接口支持时流式显示译文，自动处理新加载的内容。
@@ -50,4 +52,4 @@
 
 更新 Discord 插件时覆盖同名 `.plugin.js` 文件，保留原配置文件。从旧文件名升级时，先停用并移出旧版插件文件，再放入 `AIStreamingTranslator.plugin.js`，避免同时加载两个副本。
 
-浏览器版 **2.3.2** · Discord 版 **1.15.2**
+浏览器版 **2.3.3** · Discord 版 **1.15.2**
